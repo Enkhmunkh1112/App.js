@@ -61,7 +61,7 @@
 //  let h = 1; h < g; h++
 //  ) {
 
-//     console.log(l=l+k)
+//   console.log(l=l+k)
 
 // }
 
@@ -278,22 +278,128 @@
 // };
 // console.log("Grade=", checkPoint(153));
 
-const FLE = (A, B, C, D, E, F) => {
-  if (A > B && A > C && A > D && A > E && A > F ) {
-    return (A);
-  } else if (B > C && B > D && B > E && B > F &&  B > A) {
-    return (B);
-  }else if (C > B && C > A && C > D && C > E && C > F) {
-    return (C);
-  } else if (D > C && D > B && D > E && D > F && D > A) {
-    return (D);
-  }else if (E > B && E > C && E > D && E > A && E > F) {
-    return (E);
-  } else if (B > C && B > D && B > E && B > F && B > A) {
-    return (F);
-  }
-};
+// const FLE = (A, B, C, D, E, F) => {
+//   if (A > B && A > C && A > D && A > E && A > F ) {
+//     return (A);
+//   } else if (B > C && B > D && B > E && B > F &&  B > A) {
+//     return (B);
+//   }else if (C > B && C > A && C > D && C > E && C > F) {
+//     return (C);
+//   } else if (D > C && D > B && D > E && D > F && D > A) {
+//     return (D);
+//   }else if (E > B && E > C && E > D && E > A && E > F) {
+//     return (E);
+//   } else if (F > C && F > D && F > E && F > B && F > A) {
+//     return (F);
+//   }
+// };
 
-let Han = [1, 4, 7, 3, 5, 8]
+// let Han = [1, 4, 7, 3, 5, 8]
 
-console.log("the largest element (here)is:", FLE(Han) )
+// console.log("the largest element (here)is:", FLE(Han) )
+
+// const Areverser = (A, B, C, D, E, F, G, H) => {
+//   for (let gh = 1; gh < Areverser.length; gh++) {
+//     if (A) {
+//       return H;
+//     } else if (B) {
+//       return G;
+//     }else if (C) {
+//         return F;
+//       }else if (D) {
+//         return E;
+//       }
+//   }
+// };
+
+// let OGa = [1, 8, 4, 6, 9, 3, 2, 67];
+
+// console.log("reversed array:", Areverser(OGa));
+
+// console.log();
+
+// let askier = prompt("please insert two numbers thx");
+
+// const askier2 = askier.split(",");
+
+// const adder = (A, B) => {
+//   return A + B;
+// };
+
+// alert(adder(askier2));
+
+// let sker = prompt("please insert two numbers thx");
+
+// const asier2 = sker.split(",");
+
+// const adder = (A, B) => {
+//   return A - B;
+// };
+
+// alert(adder(asier2));
+
+// let ser = prompt("please insert two numbers thx");
+
+// const ier2 = ser.split(",");
+
+// const adder = (A, B) => {
+//   return A * B;
+// };
+
+// alert(adder(ier2));
+
+// let s = prompt("please insert two numbers thx");
+
+// const asr2 = s.split(",");
+
+// const adder = (A, B) => {
+//   return A / B;
+// };
+
+// alert(adder(asr2));
+
+// const er = prompt("please insert two numbers thx");
+
+// const asie = er.split(",");
+
+// const adder = (A, B) => {
+//   return A - B;
+// };
+
+// alert(adder(asie));
+
+// const cac = prompt("first number");
+
+// const cec = prompt("second number");
+
+// const cyc = prompt("the symbol (only:+-/*^)");
+
+// const cacPL = (A, B) => {
+//   return A + B;
+// };
+
+// const cacmn = (A, B) => {
+//   return A - B;
+// };
+
+// const cacdiv = (A, B) => {
+//   return A / B;
+// };
+
+// const cacmulp = (A, B) => {
+//   return A * B;
+// };
+
+// if ((cyc = "+")) {
+//   alert(cacPL(cac, cec));
+// } else if ((cyc = "-")) {
+//   alert(cacmn(cac, cec));
+// } else if ((cyc = "/")) {
+//   alert(cacdiv(cac, cec));
+// } else if ((cyc = "*")) {
+//   alert(cacmulp(cac, cec));
+// } else {
+//   alert("whut...");
+// }
+// not found
+

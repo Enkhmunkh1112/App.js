@@ -1,0 +1,33 @@
+.oiia {
+  height: 450px;
+  width: 300px;
+}
+.movie {
+  display: flex;
+  border: 1px rgb(185, 185, 185) solid;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 350px;
+  height: 585px;
+  text-align: center;
+}
+.movie h2 {
+  font-weight: bold;
+}
+.ohewfl {
+  display: flex;
+  padding: 2vh;
+  height: 60vh;
+  width: 100vw;
+  justify-content: center;
+  gap: 60px;
+}
+* {
+  margin: 0px;
+}
+.jjk{
+  text-align: center;
+}
