@@ -91,10 +91,12 @@
 .mt{
   background-color: gold;
   width: 60px;
-  border-radius: 5px;
 }
 .ful{
   width:60px ;
   background-color: silver;
-  border-radius: 5px;
+}
+.rating{
+  display: flex;
+  justify-content: center;
 }

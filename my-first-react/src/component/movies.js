@@ -8,7 +8,7 @@ const movies = ({ images, name, descs }) => {
         <img id="idk" src={images} alt="" />
         <h2 id="idk1">{name}</h2>
         <h5 id="idk2">{descs}</h5>
-        <div><Movierate/></div>
+        <div className="rating"><Movierate/><Movierate/><Movierate/><Movierate/><Movierate/></div>
       </div>
       <Counterer />
     </div>
